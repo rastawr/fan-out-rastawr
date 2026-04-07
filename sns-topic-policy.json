@@ -7,7 +7,7 @@
         "Service": "s3.amazonaws.com"
       },
       "Action": "SNS:Publish",
-      "Resource": "arn:aws:sns:us-east-1:<AWS_ACCOUNT_ID>:image-upload-notifications",
+      "Resource": "arn:aws:sns:us-east-1:944508510733:image-upload-notifications",
       "Condition": {
         "StringEquals": {
           "aws:SourceAccount": "944508510733"
