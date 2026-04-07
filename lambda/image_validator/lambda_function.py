@@ -55,7 +55,7 @@ def lambda_handler(event, context):
     #         - copy the object to processed/valid/{filename}
     #           hint: s3.copy_object(Bucket=bucket, Key=f"processed/valid/{filename}",
     #                 CopySource={'Bucket': bucket, 'Key': key})
-    # todo: if invalid:
+    # todo: if invalid: 
     #         - print the [INVALID] message: print(f"[INVALID] {key} is not a valid image type")
     #         - raise ValueError to trigger DLQ
 
